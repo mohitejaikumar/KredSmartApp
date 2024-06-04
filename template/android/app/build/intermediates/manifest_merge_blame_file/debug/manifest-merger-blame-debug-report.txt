@@ -1,0 +1,626 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.projectname"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->G:\AppDev\KredSmartApp\template\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->G:\AppDev\KredSmartApp\template\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:4:22-64
+13
+14    <queries>
+14-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:47:5-50:15
+15        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+15-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:48:7-87
+15-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:48:17-84
+16        <provider android:authorities="com.facebook.orca.provider.PlatformProvider" />
+16-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:48:7-87
+16-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:48:17-84
+17    </queries>
+18
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.99.0] C:\Users\ACER\.gradle\caches\transforms-3\0cd75cb117c416b0c3a5cf639b9701ff\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.99.0] C:\Users\ACER\.gradle\caches\transforms-3\0cd75cb117c416b0c3a5cf639b9701ff\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+20-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
+21-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\bf70a382be039078c49c258ed1633f85\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\bf70a382be039078c49c258ed1633f85\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:22-76
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:6:5-46:19
+26        android:name="com.projectname.MainApplication"
+26-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:7:7-38
+27        android:allowBackup="false"
+27-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:11:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\ACER\.gradle\caches\transforms-3\30bf20e454590946328e9b8f929e5538\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:9:7-41
+31        android:label="@string/app_name"
+31-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:8:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:10:7-52
+33        android:supportsRtl="true"
+33-->[com.facebook.android:facebook-android-sdk:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f4c819a2d718968a9b43725c2922b6e4\transformed\jetified-facebook-android-sdk-12.3.0\AndroidManifest.xml:28:18-44
+34        android:theme="@style/AppTheme"
+34-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:12:7-38
+35        android:usesCleartextTraffic="true" >
+35-->G:\AppDev\KredSmartApp\template\android\app\src\debug\AndroidManifest.xml:8:9-44
+36        <activity
+36-->G:\AppDev\KredSmartApp\template\android\app\src\debug\AndroidManifest.xml:11:9-14:11
+37            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+37-->G:\AppDev\KredSmartApp\template\android\app\src\debug\AndroidManifest.xml:12:13-77
+38            android:exported="false" />
+38-->G:\AppDev\KredSmartApp\template\android\app\src\debug\AndroidManifest.xml:13:13-37
+39        <activity
+39-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:13:7-31:18
+40            android:name="com.projectname.MainActivity"
+40-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:14:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:16:9-86
+42            android:exported="true"
+42-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:18:9-32
+43            android:label="@string/app_name"
+43-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:15:9-41
+44            android:launchMode="singleTask"
+44-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:17:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:19:9-51
+46            <intent-filter>
+46-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:20:9-23:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:21:13-65
+47-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:21:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:22:13-73
+49-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:22:23-70
+50            </intent-filter>
+51            <intent-filter>
+51-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:25:9-30:25
+52                <action android:name="android.intent.action.VIEW" />
+52-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:13-65
+52-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:21-62
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:13-72
+54-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:23-69
+55                <category android:name="android.intent.category.BROWSABLE" />
+55-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:13-74
+55-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:23-71
+56
+57                <data
+57-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:13-93
+58                    android:host="applinks"
+58-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:19-42
+59                    android:scheme="@string/fb_auto_applink_scheme" />
+59-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:43-90
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:32:7-39:18
+63            android:name="com.facebook.CustomTabActivity"
+63-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:32:17-62
+64            android:exported="true" >
+64-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:32:63-86
+65            <intent-filter>
+65-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:33:9-38:25
+66                <action android:name="android.intent.action.VIEW" />
+66-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:13-65
+66-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:21-62
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:13-72
+68-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:23-69
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:13-74
+69-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:23-71
+70
+71                <data android:scheme="@string/fb_login_protocol_scheme" />
+71-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:13-93
+71-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:43-90
+72            </intent-filter>
+73            <intent-filter>
+73-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:39:13-48:29
+74                <action android:name="android.intent.action.VIEW" />
+74-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:13-65
+74-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:21-62
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:13-72
+76-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:23-69
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:13-74
+77-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:23-71
+78
+79                <data
+79-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:13-93
+80                    android:host="cct.com.projectname"
+80-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:19-42
+81                    android:scheme="fbconnect" />
+81-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:43-90
+82            </intent-filter>
+83        </activity>
+84
+85        <meta-data
+85-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:40:7-105
+86            android:name="com.facebook.sdk.ApplicationId"
+86-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:40:18-63
+87            android:value="@string/facebook_app_id" />
+87-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:40:64-103
+88        <meta-data
+88-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:41:7-100
+89            android:name="com.facebook.sdk.ApplicationName"
+89-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:41:18-65
+90            android:value="@string/app_name" />
+90-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:41:66-98
+91        <meta-data
+91-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:42:7-109
+92            android:name="com.facebook.sdk.ClientToken"
+92-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:42:18-61
+93            android:value="@string/facebook_client_token" />
+93-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:42:62-107
+94        <meta-data
+94-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:43:7-97
+95            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+95-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:43:18-73
+96            android:value="false" />
+96-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:43:74-95
+97        <meta-data
+97-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:44:7-103
+98            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+98-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:44:18-79
+99            android:value="false" />
+99-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:44:80-101
+100
+101        <provider
+101-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:45:7-173
+102            android:name="com.facebook.FacebookContentProvider"
+102-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:45:17-68
+103            android:authorities="com.facebook.app.FacebookContentProvider355198514515820"
+103-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:45:69-146
+104            android:exported="true" />
+104-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:45:147-170
+105
+106        <meta-data
+106-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:36
+107            android:name="firebase_analytics_collection_enabled"
+107-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-65
+108            android:value="true" />
+108-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-33
+109        <meta-data
+109-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:37
+110            android:name="firebase_analytics_collection_deactivated"
+110-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-69
+111            android:value="false" />
+111-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-34
+112        <meta-data
+112-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-22:36
+113            android:name="google_analytics_adid_collection_enabled"
+113-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-68
+114            android:value="true" />
+114-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-33
+115        <meta-data
+115-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-25:36
+116            android:name="google_analytics_ssaid_collection_enabled"
+116-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-69
+117            android:value="true" />
+117-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-33
+118        <meta-data
+118-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-28:36
+119            android:name="google_analytics_default_allow_ad_personalization_signals"
+119-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-85
+120            android:value="true" />
+120-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-33
+121        <meta-data
+121-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-31:36
+122            android:name="google_analytics_automatic_screen_reporting_enabled"
+122-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-79
+123            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+123-->[:react-native-firebase_analytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-33
+124        <meta-data
+124-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:37
+125            android:name="firebase_crashlytics_collection_enabled"
+125-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-67
+126            android:value="false" />
+126-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-34
+127
+128        <provider
+128-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:38
+129            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+129-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+130            android:authorities="com.projectname.reactnativefirebasecrashlyticsinitprovider"
+130-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-94
+131            android:exported="false"
+131-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+132            android:initOrder="98" />
+132-->[:react-native-firebase_crashlytics] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\crashlytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-35
+133
+134        <meta-data
+134-->[:react-native-firebase_perf] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\perf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+135            android:name="firebase_performance_collection_enabled"
+135-->[:react-native-firebase_perf] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\perf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-67
+136            android:value="true" />
+136-->[:react-native-firebase_perf] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\perf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+137        <meta-data
+137-->[:react-native-firebase_perf] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\perf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:37
+138            android:name="firebase_performance_collection_deactivated"
+138-->[:react-native-firebase_perf] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\perf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+139            android:value="false" />
+139-->[:react-native-firebase_perf] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\perf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-34
+140        <meta-data
+140-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+141            android:name="app_data_collection_default_enabled"
+141-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+142            android:value="true" />
+142-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+143
+144        <service
+144-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+145            android:name="com.google.firebase.components.ComponentDiscoveryService"
+145-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+146            android:directBootAware="true"
+146-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+147            android:exported="false" >
+147-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+148            <meta-data
+148-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+149                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+149-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:23:13-25:85
+152                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+152-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:24:17-109
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:25:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-crashlytics-ndk:18.2.13] C:\Users\ACER\.gradle\caches\transforms-3\0b1c385051220932138ff653f2e13e9f\transformed\jetified-firebase-crashlytics-ndk-18.2.13\AndroidManifest.xml:35:13-37:85
+155                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+155-->[com.google.firebase:firebase-crashlytics-ndk:18.2.13] C:\Users\ACER\.gradle\caches\transforms-3\0b1c385051220932138ff653f2e13e9f\transformed\jetified-firebase-crashlytics-ndk-18.2.13\AndroidManifest.xml:36:17-122
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-crashlytics-ndk:18.2.13] C:\Users\ACER\.gradle\caches\transforms-3\0b1c385051220932138ff653f2e13e9f\transformed\jetified-firebase-crashlytics-ndk-18.2.13\AndroidManifest.xml:37:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\ACER\.gradle\caches\transforms-3\b3326fab041de97e5b8e4f4f2aa1e401\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:18:13-20:85
+158                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+158-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\ACER\.gradle\caches\transforms-3\b3326fab041de97e5b8e4f4f2aa1e401\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:19:17-115
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-crashlytics:18.2.13] C:\Users\ACER\.gradle\caches\transforms-3\b3326fab041de97e5b8e4f4f2aa1e401\transformed\jetified-firebase-crashlytics-18.2.13\AndroidManifest.xml:20:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\ACER\.gradle\caches\transforms-3\4d09a916c5e6845797d1efd2a03b7305\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:28:13-30:85
+161                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+161-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\ACER\.gradle\caches\transforms-3\4d09a916c5e6845797d1efd2a03b7305\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:29:17-115
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\ACER\.gradle\caches\transforms-3\4d09a916c5e6845797d1efd2a03b7305\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:30:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:67:13-69:85
+164                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+164-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:68:17-109
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:69:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-config:21.1.2] C:\Users\ACER\.gradle\caches\transforms-3\49997a2e31d3664982771ff5f19cffce\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:32:13-34:85
+167                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+167-->[com.google.firebase:firebase-config:21.1.2] C:\Users\ACER\.gradle\caches\transforms-3\49997a2e31d3664982771ff5f19cffce\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:33:17-117
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-config:21.1.2] C:\Users\ACER\.gradle\caches\transforms-3\49997a2e31d3664982771ff5f19cffce\transformed\jetified-firebase-config-21.1.2\AndroidManifest.xml:34:17-82
+169            <meta-data
+169-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\bf70a382be039078c49c258ed1633f85\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
+170                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+170-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\bf70a382be039078c49c258ed1633f85\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\bf70a382be039078c49c258ed1633f85\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\ACER\.gradle\caches\transforms-3\829ed12c0bc696d7dda7d5a058fb1454\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:18:13-20:85
+173                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+173-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\ACER\.gradle\caches\transforms-3\829ed12c0bc696d7dda7d5a058fb1454\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:19:17-127
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\ACER\.gradle\caches\transforms-3\829ed12c0bc696d7dda7d5a058fb1454\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:20:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\ACER\.gradle\caches\transforms-3\b2254ee9a95ffc50e8390e427d8b59c4\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:13:13-15:85
+176                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+176-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\ACER\.gradle\caches\transforms-3\b2254ee9a95ffc50e8390e427d8b59c4\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:14:17-109
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-abt:21.0.2] C:\Users\ACER\.gradle\caches\transforms-3\b2254ee9a95ffc50e8390e427d8b59c4\transformed\jetified-firebase-abt-21.0.2\AndroidManifest.xml:15:17-82
+178        </service>
+179
+180        <provider
+180-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+181            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+181-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+182            android:authorities="com.projectname.reactnativefirebaseappinitprovider"
+182-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+183            android:exported="false"
+183-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+184            android:initOrder="99" />
+184-->[:react-native-firebase_app] G:\AppDev\KredSmartApp\template\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+185
+186        <activity
+186-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:30:9-33:66
+187            android:name="com.facebook.FacebookActivity"
+187-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:31:13-57
+188            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+188-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:32:13-96
+189            android:theme="@style/com_facebook_activity_theme" />
+189-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:33:13-63
+190        <activity android:name="com.facebook.CustomTabMainActivity" />
+190-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:34:9-71
+190-->[com.facebook.android:facebook-common:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\05fde38d2d4d471defb7374d57979393\transformed\jetified-facebook-common-12.3.0\AndroidManifest.xml:34:19-68
+191
+192        <provider
+192-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:14:9-18:39
+193            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+193-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:15:13-82
+194            android:authorities="com.projectname.firebaseperfprovider"
+194-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:16:13-72
+195            android:exported="false"
+195-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:17:13-37
+196            android:initOrder="101" />
+196-->[com.google.firebase:firebase-perf:20.1.1] C:\Users\ACER\.gradle\caches\transforms-3\243b80672abc6de8998af6fb7c78487e\transformed\jetified-firebase-perf-20.1.1\AndroidManifest.xml:18:13-36
+197
+198        <service
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\9f75decdb3fe24519c9c7a4d90215cde\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:29:9-35:19
+199            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+199-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\9f75decdb3fe24519c9c7a4d90215cde\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:30:13-103
+200            android:exported="false" >
+200-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\9f75decdb3fe24519c9c7a4d90215cde\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:31:13-37
+201            <meta-data
+201-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\9f75decdb3fe24519c9c7a4d90215cde\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:32:13-34:39
+202                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+202-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\9f75decdb3fe24519c9c7a4d90215cde\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:33:17-94
+203                android:value="cct" />
+203-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\9f75decdb3fe24519c9c7a4d90215cde\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:34:17-36
+204        </service>
+205        <service
+205-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:26:9-30:19
+206            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+206-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:27:13-117
+207            android:exported="false"
+207-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:28:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" >
+208-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:29:13-69
+209        </service>
+210
+211        <receiver
+211-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:32:9-34:40
+212            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+212-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:33:13-132
+213            android:exported="false" />
+213-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\ACER\.gradle\caches\transforms-3\3b2a9c932ff96fb4c4ecfa4ff08c38f3\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:34:13-37
+214
+215        <activity
+215-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+216            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+216-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+217            android:excludeFromRecents="true"
+217-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+220        <!--
+221            Service handling Google Sign-In user revocation. For apps that do not integrate with
+222            Google Sign-In, this service will never be started.
+223        -->
+224        <service
+224-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+225            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+225-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+226            android:exported="true"
+226-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+227            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+227-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+228            android:visibleToInstantApps="true" />
+228-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\ACER\.gradle\caches\transforms-3\f6fa9b6adae97a5f033567bd85497d56\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+229
+230        <activity
+230-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:27:9-44:20
+231            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+231-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:28:13-80
+232            android:excludeFromRecents="true"
+232-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:29:13-46
+233            android:exported="true"
+233-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:30:13-36
+234            android:launchMode="singleTask"
+234-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:31:13-44
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+235-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:32:13-72
+236            <intent-filter>
+236-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:33:13-43:29
+237                <action android:name="android.intent.action.VIEW" />
+237-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:13-65
+237-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:21-62
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:13-72
+239-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:23-69
+240                <category android:name="android.intent.category.BROWSABLE" />
+240-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:13-74
+240-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:23-71
+241
+242                <data
+242-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:13-93
+243                    android:host="firebase.auth"
+243-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:19-42
+244                    android:path="/"
+245                    android:scheme="genericidp" />
+245-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:43-90
+246            </intent-filter>
+247        </activity>
+248        <activity
+248-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:45:9-62:20
+249            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+249-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:46:13-79
+250            android:excludeFromRecents="true"
+250-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:47:13-46
+251            android:exported="true"
+251-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:48:13-36
+252            android:launchMode="singleTask"
+252-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:49:13-44
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+253-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:50:13-72
+254            <intent-filter>
+254-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\ACER\.gradle\caches\transforms-3\fad78fecc8c18bff1eaefa6ced809fa2\transformed\jetified-firebase-auth-21.0.8\AndroidManifest.xml:51:13-61:29
+255                <action android:name="android.intent.action.VIEW" />
+255-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:13-65
+255-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:26:21-62
+256
+257                <category android:name="android.intent.category.DEFAULT" />
+257-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:13-72
+257-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:27:23-69
+258                <category android:name="android.intent.category.BROWSABLE" />
+258-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:13-74
+258-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:28:23-71
+259
+260                <data
+260-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:13-93
+261                    android:host="firebase.auth"
+261-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:19-42
+262                    android:path="/"
+263                    android:scheme="recaptcha" />
+263-->G:\AppDev\KredSmartApp\template\android\app\src\main\AndroidManifest.xml:29:43-90
+264            </intent-filter>
+265        </activity>
+266        <activity
+266-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\transforms-3\43b56f0e44090af27ada460c952aaf55\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+267            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+267-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\transforms-3\43b56f0e44090af27ada460c952aaf55\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+268            android:exported="false"
+268-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\transforms-3\43b56f0e44090af27ada460c952aaf55\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+269            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+269-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ACER\.gradle\caches\transforms-3\43b56f0e44090af27ada460c952aaf55\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+270
+271        <provider
+271-->[com.google.firebase:firebase-common:20.1.2] C:\Users\ACER\.gradle\caches\transforms-3\c700d299a6a4d0e2c772fe7afa071633\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+272            android:name="com.google.firebase.provider.FirebaseInitProvider"
+272-->[com.google.firebase:firebase-common:20.1.2] C:\Users\ACER\.gradle\caches\transforms-3\c700d299a6a4d0e2c772fe7afa071633\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+273            android:authorities="com.projectname.firebaseinitprovider"
+273-->[com.google.firebase:firebase-common:20.1.2] C:\Users\ACER\.gradle\caches\transforms-3\c700d299a6a4d0e2c772fe7afa071633\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+274            android:directBootAware="true"
+274-->[com.google.firebase:firebase-common:20.1.2] C:\Users\ACER\.gradle\caches\transforms-3\c700d299a6a4d0e2c772fe7afa071633\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+275            android:exported="false"
+275-->[com.google.firebase:firebase-common:20.1.2] C:\Users\ACER\.gradle\caches\transforms-3\c700d299a6a4d0e2c772fe7afa071633\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+276            android:initOrder="100" />
+276-->[com.google.firebase:firebase-common:20.1.2] C:\Users\ACER\.gradle\caches\transforms-3\c700d299a6a4d0e2c772fe7afa071633\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+277
+278        <receiver
+278-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
+279            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+279-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
+280            android:enabled="true"
+280-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
+281            android:exported="false" >
+281-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
+282        </receiver>
+283
+284        <service
+284-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
+285            android:name="com.google.android.gms.measurement.AppMeasurementService"
+285-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
+286            android:enabled="true"
+286-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
+287            android:exported="false" />
+287-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
+288        <service
+288-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
+289            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+289-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
+292            android:permission="android.permission.BIND_JOB_SERVICE" />
+292-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\ACER\.gradle\caches\transforms-3\955a4f380d7bcd24fea86e22cf78d900\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
+293
+294        <meta-data
+294-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\10e3b30c038145fb61b6e461f97511f2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+295            android:name="com.google.android.gms.version"
+295-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\10e3b30c038145fb61b6e461f97511f2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+296            android:value="@integer/google_play_services_version" />
+296-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\10e3b30c038145fb61b6e461f97511f2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+297        <!--
+298         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+299         with the application context. This config is merged in with the host app's manifest,
+300         but there can only be one provider with the same authority activated at any given
+301         point; so if the end user has two or more different apps that use Facebook SDK, only the
+302         first one will be able to use the provider. To work around this problem, we use the
+303         following placeholder in the authority to identify each host application as if it was
+304         a completely different provider.
+305        -->
+306        <provider
+306-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:39:9-42:40
+307            android:name="com.facebook.internal.FacebookInitProvider"
+307-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:40:13-70
+308            android:authorities="com.projectname.FacebookInitProvider"
+308-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:41:13-72
+309            android:exported="false" />
+309-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:42:13-37
+310
+311        <receiver
+311-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:44:9-50:20
+312            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+312-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:45:13-86
+313            android:exported="false" >
+313-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:46:13-37
+314            <intent-filter>
+314-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:47:13-49:29
+315                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+315-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:48:17-95
+315-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:48:25-92
+316            </intent-filter>
+317        </receiver>
+318        <receiver
+318-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:51:9-57:20
+319            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+319-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:52:13-118
+320            android:exported="false" >
+320-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:53:13-37
+321            <intent-filter>
+321-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:54:13-56:29
+322                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+322-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:55:17-103
+322-->[com.facebook.android:facebook-core:12.3.0] C:\Users\ACER\.gradle\caches\transforms-3\2a0bcb099c8648758950195ed26ebe4a\transformed\jetified-facebook-core-12.3.0\AndroidManifest.xml:55:25-100
+323            </intent-filter>
+324        </receiver>
+325
+326        <provider
+326-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+327            android:name="androidx.startup.InitializationProvider"
+327-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+328            android:authorities="com.projectname.androidx-startup"
+328-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+329            android:exported="false" >
+329-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+330            <meta-data
+330-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+331                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+331-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+332                android:value="androidx.startup" />
+332-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ACER\.gradle\caches\transforms-3\ba0d60cc30ffc9a804bfef824e4eb1a0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+333            <meta-data
+333-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ACER\.gradle\caches\transforms-3\0e2abf69e6fe754f5aefc6390957991b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+334                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+334-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ACER\.gradle\caches\transforms-3\0e2abf69e6fe754f5aefc6390957991b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+335                android:value="androidx.startup" />
+335-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ACER\.gradle\caches\transforms-3\0e2abf69e6fe754f5aefc6390957991b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+336        </provider>
+337    </application>
+338
+339</manifest>
