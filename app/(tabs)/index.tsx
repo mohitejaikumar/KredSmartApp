@@ -9,12 +9,9 @@ import { formatPrice } from "@/helpers/priceFormat";
 import RecommendedCard from "@/components/RecommendedCard";
 import Barchart from "@/components/BarChart";
 import { ScrollView } from "react-native-gesture-handler";
-
-import { useFonts, Montserrat_700Bold } from "@expo-google-fonts/montserrat";
+import { ExploreKredSmart } from "@/components/ExploreKredSmart";
 
 export default function Index() {
-  const router = useRouter();
-  let [fontsLoaded] = useFonts({ Montserrat_700Bold });
 
   const mostSpent = {
     category: "Household",
@@ -27,7 +24,6 @@ export default function Index() {
 
   return (
     <>
-      <SafeAreaView style={styles.container}>
         <ScrollView>
           <View>
             <Barchart />
@@ -38,7 +34,7 @@ export default function Index() {
                 style={{
                   fontWeight: "500",
                   fontSize: 15,
-                  fontFamily: "Montserrat_700Bold",
+               
                   color: "#616C6F",
                 }}>
                 YOU SPENT MOST ON
@@ -73,7 +69,7 @@ export default function Index() {
                 style={{
                   fontWeight: "500",
                   fontSize: 15,
-                  fontFamily: "Montserrat_700Bold",
+                
                   color: "#616C6F",
                 }}>
                 YOU SHOPPED MOST AT
@@ -97,17 +93,13 @@ export default function Index() {
             </View>
           </CardWrapper>
           <RecommendedCard />
+          <ExploreKredSmart />
         </ScrollView>
-      </SafeAreaView>
     </>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#F7F9F9",
-  },
   headerContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -161,7 +153,7 @@ const styles = StyleSheet.create({
     color: "#7B8788",
   },
   categorystyle: {
-    fontSize: 17,
+    fontSize: 15,
     fontFamily: "Montserrat_700Bold",
     fontWeight: "semibold",
     color: "black",

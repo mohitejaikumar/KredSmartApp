@@ -7,10 +7,10 @@ import { Divider } from "react-native-elements";
 import AtmImage from "@/assets/images/atm3.jpg";
 import { CustomCardImage } from "./CustomImage";
 import { formatPrice } from "@/helpers/priceFormat";
-import { Montserrat_700Bold, useFonts } from "@expo-google-fonts/montserrat";
+
 
 export default function RecommendedCard() {
-  let [fontsLoaded] = useFonts({ Montserrat_700Bold });
+
 
   return (
     <View style={styles.container}>
@@ -21,7 +21,7 @@ export default function RecommendedCard() {
             fontSize: 23,
             lineHeight: 24,
             color: "#040C20",
-            fontFamily: "Montserrat_700Bold",
+           
           }}>
           Credit Card for you
         </Text>
@@ -29,10 +29,10 @@ export default function RecommendedCard() {
           <Text
             style={{
               fontWeight: "semibold",
-              fontSize: 18,
+              fontSize: 15,
               lineHeight: 20,
               color: "#040C20",
-              fontFamily: "Montserrat_700Bold",
+   
             }}>
             See all
           </Text>
@@ -65,9 +65,10 @@ export default function RecommendedCard() {
         <View style={[styles.rowflex]}>
           <Text
             style={{
-              fontFamily: "Montserrat_700Bold",
+  
               fontSize: 18,
               fontWeight: "600",
+              marginRight:5,
             }}>
             Save upto
           </Text>
@@ -82,17 +83,19 @@ export default function RecommendedCard() {
         <View style={[styles.rowflex]}>
           <Text
             style={{
-              fontFamily: "Montserrat_700Bold",
+
               fontSize: 18,
               fontWeight: "600",
+              marginRight:5,
             }}>
-            Best for{" "}
+            Best for
           </Text>
           <Text
             style={{
-              fontFamily: "Montserrat_700Bold",
-              fontSize: 15,
+        
+              fontSize: 14,
               fontWeight: "semibold",
+              marginRight:1
             }}>
             Electronics & household
           </Text>

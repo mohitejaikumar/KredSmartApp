@@ -97,12 +97,12 @@ export default function Card() {
       <Button
         title="Apply For Card"
         buttonStyle={{
-          width: 300,
+          width: 350,
           backgroundColor: "#21A870",
           borderRadius: 30,
           paddingVertical: 10,
           paddingHorizontal: 20,
-          marginVertical: 38,
+          marginVertical: 60,
           justifyContent: "center",
         }}
         icon={
@@ -124,7 +124,6 @@ const styles = StyleSheet.create({
     color: "black",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F7F9F9",
   },
   cardName: {
     marginTop: 20,
@@ -165,6 +164,7 @@ const styles = StyleSheet.create({
   savingCard: {
     width: 260,
     height: 140,
+    marginVertical:15
   },
   savingAmt: {
     fontSize: 30,

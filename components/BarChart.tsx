@@ -4,7 +4,7 @@ import { BarChart } from "react-native-chart-kit";
 import { Dimensions } from "react-native";
 import { ScreenWidth } from "react-native-elements/dist/helpers";
 import { AntDesign } from "@expo/vector-icons";
-import { useFonts, Montserrat_700Bold } from "@expo-google-fonts/montserrat";
+
 
 const screenWidth = Dimensions.get("window").width;
 
@@ -35,7 +35,7 @@ const chartConfig = {
 };
 
 export default function Barchart() {
-  let [fontsLoaded] = useFonts({ Montserrat_700Bold });
+  
 
   return (
     <View style={styles.container}>
@@ -46,7 +46,7 @@ export default function Barchart() {
             fontSize: 23,
             lineHeight: 24,
             color: "#040C20",
-            fontFamily: "Montserrat_700Bold",
+        
           }}>
           Your Spendings
         </Text>
@@ -54,10 +54,10 @@ export default function Barchart() {
           <Text
             style={{
               fontWeight: "semibold",
-              fontSize: 18,
+              fontSize: 15,
               lineHeight: 20,
               color: "#040C20",
-              fontFamily: "Montserrat_700Bold",
+              
             }}>
             See all
           </Text>
@@ -73,6 +73,7 @@ export default function Barchart() {
           yAxisSuffix="k"
           chartConfig={chartConfig}
           fromZero={true} // Start y-axis from zero
+          
         />
       </View>
     </View>
