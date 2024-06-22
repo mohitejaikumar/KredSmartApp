@@ -12,6 +12,12 @@ export default function RootLayout() {
             title: "Subscription",
           }}
         />
+        <Stack.Screen
+          name="market-place"
+          options={{
+            title: "Market Place",
+          }}
+        />
       </Stack>
     </GestureHandlerRootView>
   );

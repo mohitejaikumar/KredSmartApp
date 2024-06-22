@@ -4,16 +4,9 @@ import { Tabs } from "expo-router";
 import ProfileIcon from "@/assets/icons/ProfileIcon";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import KredSmartIcon from "@/assets/icons/KredSmartIcon";
-import {
-  Montserrat_600SemiBold,
-  useFonts,
-} from "@expo-google-fonts/montserrat";
 
 export default function Layout() {
-  let [fontsLoaded] = useFonts({
-    Montserrat_600SemiBold,
-  });
-
+  
   return (
     <Tabs
       screenOptions={{
@@ -55,7 +48,7 @@ export default function Layout() {
           ),
           headerTitleStyle: {
             fontSize: 24,
-            fontFamily: "Montserrat_700Bold",
+           
           },
           tabBarLabelStyle: {
             fontSize: 14,
@@ -77,7 +70,7 @@ export default function Layout() {
           ),
           headerTitleStyle: {
             fontSize: 24,
-            fontFamily: "Montserrat_700Bold",
+            
           },
           tabBarLabel: "Your Card",
           tabBarLabelStyle: {

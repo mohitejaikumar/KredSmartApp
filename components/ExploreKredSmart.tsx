@@ -11,7 +11,7 @@ const dummyFeature = [
     'Investment',
     'Marketing',
     'Transactions',
-    'Market Place'
+    'Market-Place'
 ]
 
 export function ExploreKredSmart(){
@@ -42,7 +42,7 @@ export function ExploreKredSmart(){
                         <Text 
                         style={{fontSize:15,fontWeight:'bold' , color:"#7A7A7A"}}
                         >
-                        {feature}
+                        {feature.replaceAll("-"," ")}
                         </Text>
                          </View>
                         </Pressable>
